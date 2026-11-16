@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <style>
+         * {
+              margin: 0;
+             padding: 0;
+               box-sizing: border-box;
+        }
+
+        body {
+             font-family: 'Arial', sans-serif;
+              background: linear-gradient(135deg, #dfbae6, #be7dc7);
+                 display: flex;
+             justify-content: center;
+              align-items: center;
+               min-height: 100vh;
+             color: #333;
+                padding: 20px;
+        }
+
+      .container {
+             background-color: white;
+               padding: 40px 35px;
+             border-radius: 15px;
+               box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+             width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+              text-align: center;
+             margin-bottom: 10px;
+               color: #552f5a;
+             font-size: 28px;
+        }
+
+       .subtitle {
+               text-align: center;
+             color: #888;
+            font-size: 14px;
+              margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+         input[type="text"],
+        input[type="password"] {
+               padding: 14px 15px;
+             border: 1px solid #ddd;
+              border-radius: 8px;
+             font-size: 14px;
+             width: 100%;
+              outline: none;
+             transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border-color: #552f5a;
+            box-shadow: 0 0 0 3px rgba(67, 160, 71, 0.12);
+        }
+
+        input[type="submit"] {
+            background-color: #552f5a;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #a0408b;
+        }
+
+        .link {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: #552f5a;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .link a:hover {
+            color: #a0408b;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Welcome Back!</h2>
+        <p class="subtitle">Please enter your details to sign in.</p>
+
+        <form action="signin.html" method="post">
+            <input type="text" name="username"
+                   placeholder="Username" required>
+
+            <input type="password" name="password"
+                   placeholder="Password" required>
+
+            <input type="submit" name="signin" value="Sign In">
+        </form>
+
+        <div class="link">
+            Don't have an account?
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+</body>
+</html>
